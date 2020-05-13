@@ -1,6 +1,6 @@
+if: branch = master
 language: java
 sudo: false
-script: mvn clean verify
 dist: trusty
 jdk:
   - oraclejdk8
